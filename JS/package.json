@@ -5,6 +5,7 @@
   "main": "",
   "scripts": {
     "test": "mocha",
+    "eslint": "eslint",
     "start": "node index.js"
   },
   "author": {
@@ -16,7 +17,8 @@
     "npm": ">=3.10.8"
   },
   "devDependencies": {
-    "mocha": "^6.2.0",
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "mocha": "^6.2.0"
   }
 }
